@@ -1,7 +1,7 @@
 package main
 
 import (
-	_ "github.com/udistrital/actividades/routers"
+	_ "github.com/BOTOOM/actividades/routers"
 
 	"github.com/astaxie/beego"
 	"github.com/astaxie/beego/orm"
