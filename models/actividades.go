@@ -11,10 +11,10 @@ import (
 )
 
 type Actividades struct {
-	Id            int          `orm:"column(id);pk"`
+	Id            int          `orm:"column(id);pk;auto"`
 	Nombre        string       `orm:"column(nombre)"`
 	FechaCreacion time.Time    `orm:"column(fecha_creacion);type(date)"`
-	FechaLimite   int          `orm:"column(fecha_limite)"`
+	FechaLimite   time.Time    `orm:"column(fecha_limite)"`
 	Descripcion   int          `orm:"column(descripcion);null"`
 	Estado        *Estado      `orm:"column(estado);rel(fk)"`
 	Responsable   *Responsable `orm:"column(responsable);rel(fk)"`

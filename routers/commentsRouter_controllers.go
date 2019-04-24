@@ -7,7 +7,7 @@ import (
 
 func init() {
 
-    beego.GlobalControllerRouter["actividades/controllers:ActividadesController"] = append(beego.GlobalControllerRouter["actividades/controllers:ActividadesController"],
+    beego.GlobalControllerRouter["github.com/udistrital/actividades/controllers:ActividadesController"] = append(beego.GlobalControllerRouter["github.com/udistrital/actividades/controllers:ActividadesController"],
         beego.ControllerComments{
             Method: "Post",
             Router: `/`,
@@ -16,7 +16,7 @@ func init() {
             Filters: nil,
             Params: nil})
 
-    beego.GlobalControllerRouter["actividades/controllers:ActividadesController"] = append(beego.GlobalControllerRouter["actividades/controllers:ActividadesController"],
+    beego.GlobalControllerRouter["github.com/udistrital/actividades/controllers:ActividadesController"] = append(beego.GlobalControllerRouter["github.com/udistrital/actividades/controllers:ActividadesController"],
         beego.ControllerComments{
             Method: "GetAll",
             Router: `/`,
@@ -25,7 +25,7 @@ func init() {
             Filters: nil,
             Params: nil})
 
-    beego.GlobalControllerRouter["actividades/controllers:ActividadesController"] = append(beego.GlobalControllerRouter["actividades/controllers:ActividadesController"],
+    beego.GlobalControllerRouter["github.com/udistrital/actividades/controllers:ActividadesController"] = append(beego.GlobalControllerRouter["github.com/udistrital/actividades/controllers:ActividadesController"],
         beego.ControllerComments{
             Method: "GetOne",
             Router: `/:id`,
@@ -34,7 +34,7 @@ func init() {
             Filters: nil,
             Params: nil})
 
-    beego.GlobalControllerRouter["actividades/controllers:ActividadesController"] = append(beego.GlobalControllerRouter["actividades/controllers:ActividadesController"],
+    beego.GlobalControllerRouter["github.com/udistrital/actividades/controllers:ActividadesController"] = append(beego.GlobalControllerRouter["github.com/udistrital/actividades/controllers:ActividadesController"],
         beego.ControllerComments{
             Method: "Put",
             Router: `/:id`,
@@ -43,7 +43,7 @@ func init() {
             Filters: nil,
             Params: nil})
 
-    beego.GlobalControllerRouter["actividades/controllers:ActividadesController"] = append(beego.GlobalControllerRouter["actividades/controllers:ActividadesController"],
+    beego.GlobalControllerRouter["github.com/udistrital/actividades/controllers:ActividadesController"] = append(beego.GlobalControllerRouter["github.com/udistrital/actividades/controllers:ActividadesController"],
         beego.ControllerComments{
             Method: "Delete",
             Router: `/:id`,
@@ -52,7 +52,7 @@ func init() {
             Filters: nil,
             Params: nil})
 
-    beego.GlobalControllerRouter["actividades/controllers:EstadoController"] = append(beego.GlobalControllerRouter["actividades/controllers:EstadoController"],
+    beego.GlobalControllerRouter["github.com/udistrital/actividades/controllers:EstadoController"] = append(beego.GlobalControllerRouter["github.com/udistrital/actividades/controllers:EstadoController"],
         beego.ControllerComments{
             Method: "Post",
             Router: `/`,
@@ -61,7 +61,7 @@ func init() {
             Filters: nil,
             Params: nil})
 
-    beego.GlobalControllerRouter["actividades/controllers:EstadoController"] = append(beego.GlobalControllerRouter["actividades/controllers:EstadoController"],
+    beego.GlobalControllerRouter["github.com/udistrital/actividades/controllers:EstadoController"] = append(beego.GlobalControllerRouter["github.com/udistrital/actividades/controllers:EstadoController"],
         beego.ControllerComments{
             Method: "GetAll",
             Router: `/`,
@@ -70,7 +70,7 @@ func init() {
             Filters: nil,
             Params: nil})
 
-    beego.GlobalControllerRouter["actividades/controllers:EstadoController"] = append(beego.GlobalControllerRouter["actividades/controllers:EstadoController"],
+    beego.GlobalControllerRouter["github.com/udistrital/actividades/controllers:EstadoController"] = append(beego.GlobalControllerRouter["github.com/udistrital/actividades/controllers:EstadoController"],
         beego.ControllerComments{
             Method: "GetOne",
             Router: `/:id`,
@@ -79,7 +79,7 @@ func init() {
             Filters: nil,
             Params: nil})
 
-    beego.GlobalControllerRouter["actividades/controllers:EstadoController"] = append(beego.GlobalControllerRouter["actividades/controllers:EstadoController"],
+    beego.GlobalControllerRouter["github.com/udistrital/actividades/controllers:EstadoController"] = append(beego.GlobalControllerRouter["github.com/udistrital/actividades/controllers:EstadoController"],
         beego.ControllerComments{
             Method: "Put",
             Router: `/:id`,
@@ -88,7 +88,7 @@ func init() {
             Filters: nil,
             Params: nil})
 
-    beego.GlobalControllerRouter["actividades/controllers:EstadoController"] = append(beego.GlobalControllerRouter["actividades/controllers:EstadoController"],
+    beego.GlobalControllerRouter["github.com/udistrital/actividades/controllers:EstadoController"] = append(beego.GlobalControllerRouter["github.com/udistrital/actividades/controllers:EstadoController"],
         beego.ControllerComments{
             Method: "Delete",
             Router: `/:id`,
@@ -97,7 +97,7 @@ func init() {
             Filters: nil,
             Params: nil})
 
-    beego.GlobalControllerRouter["actividades/controllers:ResponsableController"] = append(beego.GlobalControllerRouter["actividades/controllers:ResponsableController"],
+    beego.GlobalControllerRouter["github.com/udistrital/actividades/controllers:ResponsableController"] = append(beego.GlobalControllerRouter["github.com/udistrital/actividades/controllers:ResponsableController"],
         beego.ControllerComments{
             Method: "Post",
             Router: `/`,
@@ -106,7 +106,7 @@ func init() {
             Filters: nil,
             Params: nil})
 
-    beego.GlobalControllerRouter["actividades/controllers:ResponsableController"] = append(beego.GlobalControllerRouter["actividades/controllers:ResponsableController"],
+    beego.GlobalControllerRouter["github.com/udistrital/actividades/controllers:ResponsableController"] = append(beego.GlobalControllerRouter["github.com/udistrital/actividades/controllers:ResponsableController"],
         beego.ControllerComments{
             Method: "GetAll",
             Router: `/`,
@@ -115,7 +115,7 @@ func init() {
             Filters: nil,
             Params: nil})
 
-    beego.GlobalControllerRouter["actividades/controllers:ResponsableController"] = append(beego.GlobalControllerRouter["actividades/controllers:ResponsableController"],
+    beego.GlobalControllerRouter["github.com/udistrital/actividades/controllers:ResponsableController"] = append(beego.GlobalControllerRouter["github.com/udistrital/actividades/controllers:ResponsableController"],
         beego.ControllerComments{
             Method: "GetOne",
             Router: `/:id`,
@@ -124,7 +124,7 @@ func init() {
             Filters: nil,
             Params: nil})
 
-    beego.GlobalControllerRouter["actividades/controllers:ResponsableController"] = append(beego.GlobalControllerRouter["actividades/controllers:ResponsableController"],
+    beego.GlobalControllerRouter["github.com/udistrital/actividades/controllers:ResponsableController"] = append(beego.GlobalControllerRouter["github.com/udistrital/actividades/controllers:ResponsableController"],
         beego.ControllerComments{
             Method: "Put",
             Router: `/:id`,
@@ -133,7 +133,7 @@ func init() {
             Filters: nil,
             Params: nil})
 
-    beego.GlobalControllerRouter["actividades/controllers:ResponsableController"] = append(beego.GlobalControllerRouter["actividades/controllers:ResponsableController"],
+    beego.GlobalControllerRouter["github.com/udistrital/actividades/controllers:ResponsableController"] = append(beego.GlobalControllerRouter["github.com/udistrital/actividades/controllers:ResponsableController"],
         beego.ControllerComments{
             Method: "Delete",
             Router: `/:id`,
