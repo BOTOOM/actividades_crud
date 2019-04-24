@@ -1,13 +1,13 @@
 package controllers
 
 import (
-	"actividades/models"
 	"encoding/json"
 	"errors"
 	"strconv"
 	"strings"
 
 	"github.com/astaxie/beego"
+	"github.com/udistrital/actividades/models"
 )
 
 // ActividadesController operations for Actividades
