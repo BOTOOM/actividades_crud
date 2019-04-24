@@ -552,8 +552,8 @@
                     "format": "datetime"
                 },
                 "FechaLimite": {
-                    "type": "integer",
-                    "format": "int64"
+                    "type": "string",
+                    "format": "datetime"
                 },
                 "Id": {
                     "type": "integer",
