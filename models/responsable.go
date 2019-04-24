@@ -10,7 +10,7 @@ import (
 )
 
 type Responsable struct {
-	Id                   int    `orm:"column(id);pk"`
+	Id                   int    `orm:"column(id);pk;auto"`
 	Nombres              string `orm:"column(nombres)"`
 	Apellidos            string `orm:"column(apellidos)"`
 	Email                string `orm:"column(email)"`

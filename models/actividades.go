@@ -11,7 +11,7 @@ import (
 )
 
 type Actividades struct {
-	Id            int          `orm:"column(id);pk"`
+	Id            int          `orm:"column(id);pk;auto"`
 	Nombre        string       `orm:"column(nombre)"`
 	FechaCreacion time.Time    `orm:"column(fecha_creacion);type(date)"`
 	FechaLimite   int          `orm:"column(fecha_limite)"`
