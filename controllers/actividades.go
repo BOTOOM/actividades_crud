@@ -6,7 +6,7 @@ import (
 	"strings"
 
 	"github.com/astaxie/beego"
-	"github.com/udistrital/actividades/models"
+	"github.com/BOTOOM/actividades/models"
 )
 
 // ActividadesController operations for Actividades
