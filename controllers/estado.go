@@ -6,7 +6,7 @@ import (
 	"strings"
 
 	"github.com/astaxie/beego"
-	"github.com/BOTOOM/actividades/models"
+	"github.com/BOTOOM/actividades_crud/models"
 )
 
 // EstadoController operations for Estado

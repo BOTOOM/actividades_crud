@@ -5,8 +5,8 @@ import (
 	"strconv"
 	"strings"
 
+	"github.com/BOTOOM/actividades_crud/models"
 	"github.com/astaxie/beego"
-	"github.com/BOTOOM/actividades/models"
 )
 
 // ResponsableController operations for Responsable

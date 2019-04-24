@@ -8,7 +8,7 @@
 package routers
 
 import (
-	"github.com/BOTOOM/actividades/controllers"
+	"github.com/BOTOOM/actividades_crud/controllers"
 
 	"github.com/astaxie/beego"
 )
